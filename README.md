@@ -4,6 +4,8 @@ A Git-based marketplace for reusable agent plugins and skills.
 
 This repo is the place to publish and maintain useful agent capabilities across domains, not only public-data workflows. Current content includes the Estonia public sources package; future packages can include things like self-coaching, productivity, research, engineering, and other reusable agent systems.
 
+➡️ Not sure how to install this? See [this guide](https://www.taivo.ai/how-to-install-a-claude-code-skill-from-github/).
+
 ## Distribution Targets
 
 Each package can be distributed through:
