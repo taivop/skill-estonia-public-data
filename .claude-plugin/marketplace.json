@@ -7,7 +7,7 @@
     {
       "name": "estonia-public-sources",
       "source": "./skills/.curated/estonia-public-sources",
-      "description": "Get evidence-based answers about Estonian government operations, decisions, spending, registries, and oversight by quickly selecting the right official source skill.",
+      "description": "Query 133 Estonian official public sources. Covers \u00e4riregister, ehitisregister, kinnistusraamat, maa-amet, statistikaamet, haigekassa, KOTKAS, keskkonnaload, riigihanked, riigiteataja, riigikogu, ametlikud teadaanded, PRIA, and more. Routes to the right source and executes retrieval workflows.",
       "author": {
         "name": "Taivo Marketplace"
       }

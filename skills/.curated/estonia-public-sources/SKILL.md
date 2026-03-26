@@ -1,6 +1,6 @@
 ---
 name: estonia-government-public-sources
-description: Get evidence-based answers about Estonian government operations, decisions, spending, registries, and oversight by quickly selecting the right official source skill.
+description: "Query 133 Estonian official public sources. Covers äriregister, ehitisregister, kinnistusraamat, maa-amet, statistikaamet, haigekassa, KOTKAS, keskkonnaload, riigihanked, riigiteataja, riigikogu, ametlikud teadaanded, PRIA, and more. Routes to the right source and executes retrieval workflows."
 metadata:
   distribution:
     tier: curated
@@ -11,18 +11,6 @@ metadata:
 ---
 
 # Estonia Government Public Sources
-
-## Use when
-- You need fast, evidence-backed answers about how Estonian government operates or has operated.
-- You need to identify the right official source for governance, legal, policy, spending, registry, oversight, or municipal questions.
-
-## Avoid when
-- You already know the exact source skill and can open it directly.
-
-## What the user gets
-- A fast path to the best official source for the question.
-- Source-specific workflows that produce structured, traceable outputs.
-- Manual fallback guidance when a source needs user interaction (login/export/captcha), then continued automated analysis from user-provided files.
 
 ## Routing workflow
 1. Classify the user request (parliament, government operations, justice, business/asset registry, finance, municipal, etc.).
@@ -82,5 +70,16 @@ metadata:
 - Defence and security policy context:
   `sources/defence-public-opinion-surveys`, `sources/defence-policy-budget-documents`
 
-## Detailed map
-- Use `SOURCE_MAP.md` for fast source selection by user intent and keyword.
+## Retrieval preferences
+
+- Prefer `curl`/`wget` on direct URLs over browser navigation.
+- If the source has an API, use it directly.
+- Only fall back to browser/UI when the data is truly UI-only.
+- If a source requires login/captcha/export, guide the user through exact steps, then continue from their provided files.
+
+## Output requirements
+
+- Cite exact source URL where data was retrieved.
+- Include retrieval timestamp.
+- Preserve original field names from the source.
+- Separate facts from interpretation.
