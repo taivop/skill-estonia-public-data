@@ -2,6 +2,26 @@
 
 Use this repository to get evidence-based answers from official Estonian public sources about how government works, what decisions were made, who was involved, and what changed over time.
 
+## Usage
+
+After installing the plugin, use the explicit slash command to query Estonian public sources:
+
+```
+/estonia-public-sources:query millised keskkonnaload on Tallinnale väljastatud?
+```
+
+```
+/estonia-public-sources:query procurement contracts for IT services in 2025
+```
+
+```
+/estonia-public-sources:query äriregistri andmed ettevõtte X kohta
+```
+
+The slash command routes your question to the right official source among 133 available datasets and executes the retrieval workflow.
+
+The plugin may also activate automatically when Claude detects a relevant question, but the slash command is the most reliable way to ensure it is used.
+
 ## What You Get
 
 - Fast routing to the right official source for policy, law, spending, operations, registries, and oversight questions.
@@ -26,6 +46,9 @@ Sources include both APIs/datasets and official websites/registries.
 ├── SKILL.md
 ├── SOURCE_MAP.md
 ├── README.md
+├── skills/
+│   └── query/
+│       └── SKILL.md        ← slash command entry point
 └── sources/
     ├── <source-skill-slug-1>/
     │   └── SKILL.md
