@@ -19,7 +19,8 @@ description: Use Agriculture and Food Board food supervision pages for inspectio
 - Structured food supervision references and findings fields.
 
 ## Primary endpoints
-- Food supervision: https://pta.agri.ee/en/food/supervision
+- JVIS public register: https://jvis.agri.ee/jvis/avalik.html
+- Food supervision info: https://pta.agri.ee/en/food/supervision
 
 ## Workflow
 1. Identify relevant supervision publications/guidance.

@@ -25,6 +25,7 @@ description: Retrieve civil-service pay governance records from Ministry of Fina
 - Page provides direct PDF/XLSX downloads.
 
 ## Primary endpoints
+- Salary data (public sector statistics): https://www.fin.ee/riigihaldus-ja-avalik-teenistus-kinnisvara/riigihaldus/avaliku-sektori-statistika#ametnike-palgaandmed
 - Pay governance page: https://www.fin.ee/riigihaldus-ja-avalik-teenistus-kinnisvara/avalik-teenistus/palgakorraldus
 
 ## Retrieval workflow (reproducible)

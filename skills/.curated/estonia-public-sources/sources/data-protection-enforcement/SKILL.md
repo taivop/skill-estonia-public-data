@@ -18,7 +18,8 @@ description: Query Data Protection Inspectorate public materials for enforcement
 ## Outputs
 - Public enforcement/guidance references with metadata.
 
-## Primary endpoint
+## Primary endpoints
+- Precepts and enforcement (ET): https://www.aki.ee/et/inspektsioon/ettekirjutused
 - AKI homepage: https://www.aki.ee/en
 
 ## Workflow

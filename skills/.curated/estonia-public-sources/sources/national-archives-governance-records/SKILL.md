@@ -18,7 +18,9 @@ description: Query National Archives resources for historical governance records
 ## Outputs
 - Archival record references with metadata and source links.
 
-## Primary endpoint
+## Primary endpoints
+- ARKAADER searchable database: https://arkaader.ee/
+- Virtual reading room: https://www.ra.ee/vau/index.php/en
 - Archives overview: https://www.ra.ee/en/archives/
 
 ## Workflow

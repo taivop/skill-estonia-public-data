@@ -24,6 +24,7 @@ description: Retrieve Ministry of Foreign Affairs development cooperation and hu
 - Page provides direct PDF links and keyword-filter navigation.
 
 ## Primary endpoints
+- Development cooperation database: https://akta.mfa.ee/index.php?language=eng
 - Main page: https://www.vm.ee/en/activity/development-cooperation-and-humanitarian-aid
 - Example report: https://vm.ee/sites/default/files/documents/2025-07/RKK_Estonias-Development-Cooperation-Report.pdf
 - Example strategy file: https://www.vm.ee/sites/default/files/documents/2024-04/AKHA%20strateegia%202024-2030%20inglise%20keeles.pdf

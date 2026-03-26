@@ -19,7 +19,9 @@ description: Use e-marital property register public service context for official
 - Structured register outputs and access constraints metadata.
 
 ## Primary endpoints
-- E-marital property register: https://www.rik.ee/en/other-services/e-marital-property-register
+- Register search: https://abieluvararegister.rik.ee/
+- Register statistics: https://abieluvararegister.rik.ee/Statistika
+- Service info: https://www.rik.ee/en/other-services/e-marital-property-register
 
 ## Workflow
 1. Determine what output is publicly available.

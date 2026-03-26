@@ -19,7 +19,8 @@ description: Use Health Board healthcare professionals registration pages for re
 - Structured registration-process/output references.
 
 ## Primary endpoints
-- Registration of professionals: https://www.terviseamet.ee/en/healthcare/registration-of-health-care-professionals
+- Searchable register (MEDRE): https://medre.tehik.ee/home
+- Registration info: https://www.terviseamet.ee/en/healthcare/registration-of-health-care-professionals
 
 ## Workflow
 1. Identify register route and eligibility/output scope.

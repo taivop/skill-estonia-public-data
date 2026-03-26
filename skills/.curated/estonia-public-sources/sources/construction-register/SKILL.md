@@ -18,8 +18,9 @@ description: Use Estonia construction register (EHR) public data views for permi
 ## Outputs
 - Construction-register records with permit/status metadata.
 
-## Primary endpoint
-- EHR: https://www.ehr.ee/en
+## Primary endpoints
+- EHR app: https://livekluster.ehr.ee/ui/ehr/v1
+- EHR redirect: https://www.ehr.ee (redirects to above)
 
 ## Workflow
 1. Locate relevant EHR public search area.
@@ -37,7 +38,7 @@ description: Use Estonia construction register (EHR) public data views for permi
 ## Access reality
 - Public access type: UI page with direct downloadable files.
 - Verification run: 2026-02-24.
-- https://www.ehr.ee/en (HTTP 200, text/html, file links detected: 1)
+- https://livekluster.ehr.ee/ui/ehr/v1 (JavaScript SPA, requires browser rendering)
 
 ## Request contract
 - Use the listed primary endpoints as authoritative entry points.

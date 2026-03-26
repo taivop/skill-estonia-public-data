@@ -19,7 +19,9 @@ description: Use Estonian Patent Office sources for patents, trademarks, and ind
 - Structured IP register outputs with official references.
 
 ## Primary endpoints
-- Patent Office portal: https://www.patendiamet.ee/en
+- EPA online search (patents/utility models): https://online.epa.ee/
+- EPA trademarks/designs search: http://teenused.epa.ee/
+- Patent Office portal: https://www.epa.ee/
 
 ## Workflow
 1. Locate relevant register/search route for IP type.

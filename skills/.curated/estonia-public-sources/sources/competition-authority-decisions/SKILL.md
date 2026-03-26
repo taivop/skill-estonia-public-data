@@ -18,7 +18,8 @@ description: Query Competition Authority public materials for decisions, precept
 ## Outputs
 - Decision/precept publication references with links.
 
-## Primary endpoint
+## Primary endpoints
+- Decisions and precepts (ET): https://www.konkurentsiamet.ee/otsused-ja-ettekirjutused
 - Authority homepage: https://www.konkurentsiamet.ee/en
 
 ## Workflow

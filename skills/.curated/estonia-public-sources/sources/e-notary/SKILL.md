@@ -19,7 +19,8 @@ description: Use RIK e-notary service context for notarial workflow guidance and
 - Structured e-notary process/output references.
 
 ## Primary endpoints
-- E-notary service: https://www.rik.ee/en/other-services/e-notary
+- Chamber of Notaries portal: https://notar.ee
+- E-notary service info: https://www.rik.ee/en/other-services/e-notary
 
 ## Workflow
 1. Identify relevant e-notary service route.

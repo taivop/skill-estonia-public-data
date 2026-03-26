@@ -19,7 +19,8 @@ description: Use official Estonian ship register sources for vessel registration
 - Structured vessel register extract and status fields.
 
 ## Primary endpoints
-- Estonian ship registers: https://www.transpordiamet.ee/en/vehicle-ship-airplane/ships/estonian-ship-registers
+- Ship register (Ministry of Justice): https://www.just.ee/en/legal-services/ship-register
+- Estonian ship registers info: https://www.transpordiamet.ee/en/vehicle-ship-airplane/ships/estonian-ship-registers
 
 ## Workflow
 1. Determine relevant ship register type.

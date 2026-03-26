@@ -19,6 +19,7 @@ description: Query Police and Border Guard Board public publications for operati
 - Extracted police operational indicators with source citations.
 
 ## Primary endpoints
+- Statistics page (ET): https://www.politsei.ee/et/juhised/statistika
 - Police and Border Guard Board portal: https://www.politsei.ee/en
 
 ## Workflow

@@ -18,8 +18,10 @@ description: Query KOTKAS environmental decision system for permits, approvals, 
 ## Outputs
 - Permit decision records with status chronology.
 
-## Primary endpoint
-- KOTKAS: https://kotkas.envir.ee/
+## Primary endpoints
+- Permit registry (public): https://kotkas.envir.ee/permits/public_index
+- Document registry (public): https://kotkas.envir.ee/permits/public_document_index
+- Applications registry (public): https://kotkas.envir.ee/permits/public_application_index
 
 ## Workflow
 1. Search for permit cases by type and geography.
@@ -37,7 +39,7 @@ description: Query KOTKAS environmental decision system for permits, approvals, 
 ## Access reality
 - Public access type: Public webpage/document extraction.
 - Verification run: 2026-02-24.
-- https://kotkas.envir.ee/ (HTTP 200, text/html;, file links detected: 0)
+- https://kotkas.envir.ee/permits/public_index (HTTP 200, text/html)
 
 ## Request contract
 - Use the listed primary endpoints as authoritative entry points.

@@ -19,7 +19,8 @@ description: Use Agriculture and Food Board food business approval pages for lic
 - Structured approval-process references and requirement fields.
 
 ## Primary endpoints
-- Approval of operating enterprises: https://pta.agri.ee/en/food/approval-operating-enterprises
+- JVIS public register: https://jvis.agri.ee/jvis/avalik.html
+- Approval info: https://pta.agri.ee/en/food/approval-operating-enterprises
 
 ## Workflow
 1. Determine applicable approval route by business type.

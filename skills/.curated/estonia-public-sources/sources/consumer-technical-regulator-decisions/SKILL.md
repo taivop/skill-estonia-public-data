@@ -18,7 +18,8 @@ description: Query Consumer Protection and Technical Regulatory Authority public
 ## Outputs
 - Decision-related publication references and metadata.
 
-## Primary endpoint
+## Primary endpoints
+- Consumer disputes decisions: https://jvis.ttja.ee/modules/tarbijavaidluskomisjoni-otsused/avalik
 - TTJA homepage: https://ttja.ee/en
 
 ## Workflow

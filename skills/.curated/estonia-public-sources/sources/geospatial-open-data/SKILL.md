@@ -23,8 +23,14 @@ description: Use Land and Spatial Board geospatial open data services for maps, 
 - Cadastral unit context when present in selected layers.
 
 ## Primary endpoints
-- Geoportal: https://geoportaal.maaamet.ee/eng/
 - Public services index: https://geoportaal.maaamet.ee/eng/services/public-wms-wfs-p346.html
+- Spatial data downloads: https://geoportaal.maaamet.ee/eng/spatial-data-p58.html
+- Metadata catalogue: https://metadata.geoportaal.ee/geonetwork/srv/eng/catalog.search#/home
+- WMS base maps: https://kaart.maaamet.ee/wms/alus?
+- WMS topographic: https://kaart.maaamet.ee/wms/kaart?
+- WMS addresses/cadastral: https://kaart.maaamet.ee/wms/aadressid?
+- WMS orthophotos: https://kaart.maaamet.ee/wms/fotokaart?
+- WFS vectors (ETAK): https://gsavalik.envir.ee/geoserver/etak/ows
 
 ## Workflow
 1. Open the public services page and select the right layer family.
@@ -42,8 +48,8 @@ description: Use Land and Spatial Board geospatial open data services for maps, 
 ## Access reality
 - Public access type: Public webpage/document extraction.
 - Verification run: 2026-02-24.
-- https://geoportaal.maaamet.ee/eng/ (HTTP 200, text/html;charset=utf-8, file links detected: 0)
-- https://geoportaal.maaamet.ee/eng/services/public-wms-wfs-p346.html (HTTP 200, text/html;charset=utf-8, file links detected: 0)
+- https://geoportaal.maaamet.ee/eng/services/public-wms-wfs-p346.html (HTTP 200, text/html)
+- WMS/WFS endpoints are open OGC services, queryable via GetCapabilities
 
 ## Request contract
 - Use the listed primary endpoints as authoritative entry points.

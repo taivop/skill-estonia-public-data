@@ -25,7 +25,7 @@ description: Retrieve election outcome datasets and National Electoral Committee
 - Election open-data pages provide downloadable files; VVK decisions are presented as list/navigation pages.
 
 ## Primary endpoints
-- Main site: https://www.valimised.ee/en
+- Election open data: https://www.valimised.ee/en/archive/open-data-estonian-elections
 - Elections archive (ET): https://www.valimised.ee/et/toimunud-valimiste-arhiiv
 - Election open data (ET): https://www.valimised.ee/et/valimiste-arhiiv/valimiste-avaandmed
 - VVK decisions page: https://www.valimised.ee/et/korraldajad/vabariigi-valimiskomisjon/otsused
