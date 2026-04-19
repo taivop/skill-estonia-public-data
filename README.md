@@ -2,7 +2,7 @@
 
 A Git-based marketplace for reusable agent plugins and skills.
 
-This repo is the place to publish and maintain useful agent capabilities across domains, not only public-data workflows. Current content includes the Estonia public sources package; future packages can include things like self-coaching, productivity, research, engineering, and other reusable agent systems.
+This repo is the place to publish and maintain useful agent capabilities across domains, not only public-data workflows. Current content includes Estonia-focused packages (public sources, building supply search); future packages can include things like self-coaching, productivity, research, engineering, and other reusable agent systems.
 
 ➡️ Not sure how to install this? See [this guide](https://www.taivo.ai/how-to-install-a-claude-code-skill-from-github/).
 
@@ -34,7 +34,8 @@ Each package can be distributed through:
 
 ## Current Packages
 
-1. `skills/.curated/estonia-public-sources`
+1. `skills/.curated/estonia-public-sources` — routes questions across 133 official Estonian public sources.
+2. `skills/.curated/estonia-building-supply-search` — searches Bauhof, Ehituse ABC, Decora, K-Rauta, Bauhaus, and Depo for products, prices, and stock.
 
 Planned/possible additions:
 
@@ -46,6 +47,7 @@ Planned/possible additions:
 ```bash
 claude plugin marketplace add taivop/marketplace
 claude plugin install estonia-public-sources@marketplace
+claude plugin install estonia-building-supply-search@marketplace
 ```
 
 ## Install In Codex
@@ -54,6 +56,10 @@ claude plugin install estonia-public-sources@marketplace
 python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
   --repo taivop/marketplace \
   --path skills/.curated/estonia-public-sources
+
+python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
+  --repo taivop/marketplace \
+  --path skills/.curated/estonia-building-supply-search
 ```
 
 ## Maintainer Workflow
