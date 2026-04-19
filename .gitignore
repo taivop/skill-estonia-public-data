@@ -3,3 +3,5 @@ examples/*/claude_output.json
 examples/*/claude_stderr.log
 **/venv/
 **/.venv/
+**/__pycache__/
+

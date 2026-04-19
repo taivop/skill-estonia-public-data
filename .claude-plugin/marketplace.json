@@ -5,6 +5,14 @@
   },
   "plugins": [
     {
+      "name": "estonia-building-supply-search",
+      "source": "./skills/.curated/estonia-building-supply-search",
+      "description": "Search Estonian building supply stores (Bauhof, Ehituse ABC, Decora, K-Rauta, Bauhaus, Depo) for products, prices, and stock. USE WHEN user asks to find products at Estonian building stores, compare prices across them, or check availability.",
+      "author": {
+        "name": "Taivo Marketplace"
+      }
+    },
+    {
       "name": "estonia-public-sources",
       "source": "./skills/.curated/estonia-public-sources",
       "description": "Query 133 Estonian official public sources. Covers \u00e4riregister, ehitisregister, kinnistusraamat, maa-amet, statistikaamet, haigekassa, KOTKAS, keskkonnaload, riigihanked, riigiteataja, riigikogu, ametlikud teadaanded, PRIA, and more. Routes to the right source and executes retrieval workflows.",
